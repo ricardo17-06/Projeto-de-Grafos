@@ -26,6 +26,8 @@ public class Grafos {
                 } else{
                     if(i == j) { //adicionando loops
                         grafo[i][j]++;
+                        grafo[j][i]++;
+                        aresta++;
                     } else if(grafo[i][j] > 0){ //adicionando paralelas
                         grafo[i][j]++;
                         grafo[j][i]++;
