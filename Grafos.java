@@ -44,7 +44,7 @@ public class Grafos {
         //criando os vértices
         
         do{
-            input = JOptionPane.showInputDialog(null, "Digite um par de arestas(neste formato 1 2//obs:Só pode ser digitado um par por vez) e aperte enter para digitar o proximo par, e para encerrar digite -1");
+            input = JOptionPane.showInputDialog(null, "Digite um par de arestas(neste formato 1 2 //obs:Só pode ser digitado um par por vez) e aperte enter para digitar o proximo par, e para encerrar digite -1");
             if(!input.equals("-1")) {
                 String[] vertices = input.split(" ");
                 int i = Integer.parseInt(vertices[0]);
