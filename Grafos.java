@@ -6,6 +6,14 @@ import java.util.List;
 import java.util.Queue;
 import javax.swing.JOptionPane;
 
+/*
+Grupo
+Ricardo Fialho dos Santos Oliveira RGM: 25966154
+Lucas Campos Mateus RGM: 27972640
+Luan Mendes RGM: 26469910
+Nathanael Santos Moreira  RGM:27666921
+*/
+
 
 public class Grafos{
 
@@ -55,7 +63,7 @@ public class Grafos{
         //criando os vértices
         
         do{
-            input = JOptionPane.showInputDialog(null,"Digite um par de arestas (Neste formato 1 2 // obs:apenas um par por vez)\ne aperte enter para digitar o proximo par, e para encerrar digite -1" );
+            input = JOptionPane.showInputDialog(null,"Digite um par de arestas (Neste formato 1 2 // obs:apenas um par por vez)\n e aperte enter para digitar o proximo par, e para encerrar digite -1" );
             if(!input.equals("-1")){
                 String[] vertices = input.split(" ");
                 int i = Integer.parseInt(vertices[0]);
@@ -165,5 +173,3 @@ public class Grafos{
         }
     }          
 }
-        
-
